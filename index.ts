@@ -2,6 +2,7 @@
 var T = "5640820074:AAGv9fS4bkI3IeU83WSwP0Fqk05-PyEEedI"
 
 async function upd(req) {
+    
     req[Object.keys(req)[1]].type = Object.keys(req)[1]
     req = req[Object.keys(req)[1]]
     req.from = req.chat || req.from
